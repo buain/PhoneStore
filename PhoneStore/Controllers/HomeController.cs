@@ -37,10 +37,5 @@ namespace PhoneStore.Controllers
             db.SaveChanges();
             return "Спасибо, " + purchase.Person + ", за покупку!";
         }
-
-        private DateTime getToday()
-        {
-            return DateTime.Now;
-        }
     }
 }
