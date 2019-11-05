@@ -36,7 +36,6 @@ namespace PhoneStore.Controllers
             //save all changes into DB
             db.SaveChanges();
             return "Спасибо, " + purchase.Person + ", за покупку!";
-
         }
     }
 }
