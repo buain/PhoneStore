@@ -30,6 +30,7 @@ namespace PhoneStore.Controllers
         [HttpPost]
         public string Buy(Purchase purchase)
         {
+
             purchase.Date = DateTime.Now;
             //Add information into DB about purchase
             db.Purchases.Add(purchase);
