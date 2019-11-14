@@ -13,5 +13,6 @@ namespace PhoneStore.Models
         public string Address { get; set; }
         public int PhoneId { get; set; }
         public DateTime Date { get; set; }
+
     }
 }
